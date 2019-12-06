@@ -37,16 +37,14 @@ int main(){
 	 //^ 可以改变某一位的状态			
 	 //| 可以强制某一位变1
 	 //&~ 可以强制某一位变0
-			}
-			else if (isdigit(ch))
-			{
-				//do nothing
-			}
-			else
-			{
-				putchar(ch);
-			}
 		}
+		else if (isdigit(ch)){
+			//do nothing
+		}
+		else{
+		putchar(ch);
+		}
+	}
 	system("pause");
 	return 0;
 }
